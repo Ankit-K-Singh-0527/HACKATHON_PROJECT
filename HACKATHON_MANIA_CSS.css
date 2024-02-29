@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+canvas {
+    flex: 1;
+    cursor: crosshair;
+}
+#tools {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+#tools button {
+    margin-right: 10px;
+}
+#layers {
+    max-height: 150px;
+    overflow-y: auto;
+}
